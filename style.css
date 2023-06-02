@@ -91,7 +91,6 @@ input:focus{
     position: fixed;
     bottom: 70px;
     left: 50px;
-    /* This is a new change */
 }
 
 .dropdown_item{
