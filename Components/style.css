@@ -23,7 +23,7 @@ li {
     text-overflow: ellipsis;
 }
 li.blurred {
-    filter: blur(4px;);
+    filter: blur(4px);
 }
 .btn{
     display: none;
