@@ -51,11 +51,10 @@ li {
     border: transparent;
     margin-top: 10px;
     padding: 5px;
-    width: auto;
+    width: 95%;
     color: white;
     font-size: 18px;
     margin-bottom: 10px;
-    overflow:scroll;
 }
 
 .add_note:focus{
@@ -63,6 +62,8 @@ li {
     background-color: #4A4A4A ;
     outline: none;
 }
+
+
 
 .dropdown_btn{
     display: block;
