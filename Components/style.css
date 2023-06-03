@@ -18,6 +18,12 @@ nav{
 li {
     display: inline;
     font-size: 15px;
+    max-width: calc(100% - 50px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+li.blurred {
+    filter: blur(4px;);
 }
 .btn{
     display: none;
