@@ -46,18 +46,19 @@ li {
     opacity: 0.6;
 }
 
-input {
+.add_note {
     background-color: #4A4A4A ;
     border: transparent;
     margin-top: 10px;
     padding: 5px;
-    width: 105%;
+    width: auto;
     color: white;
     font-size: 18px;
     margin-bottom: 10px;
+    overflow:scroll;
 }
 
-input:focus{
+.add_note:focus{
     border: none;
     background-color: #4A4A4A ;
     outline: none;
@@ -68,7 +69,8 @@ input:focus{
     position: fixed;
     bottom: 0;
     left: 0;
-    background-color: transparent;
+    background-color: darkgray;
+    border-radius: 5px 5px 5px 0px;
     border: none;
 }
 
@@ -78,7 +80,7 @@ input:focus{
 }
 
 .dropdown_icon{
-    width: 90px;
+    width: 50px;
 }
 
 .dropdown_menu{
@@ -89,8 +91,8 @@ input:focus{
     width: 150px;
     padding:0px;
     position: fixed;
-    bottom: 70px;
-    left: 50px;
+    bottom: 45px;
+    left: 40px;
 }
 
 .dropdown_item{
