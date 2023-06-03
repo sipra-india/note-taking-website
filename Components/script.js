@@ -34,7 +34,6 @@ function Add_note(){
         btn2.appendChild(img2);
         btn3.appendChild(img3);
         place.appendChild(div);
-        
     }
 }
 function save(){
