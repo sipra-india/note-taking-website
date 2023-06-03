@@ -16,11 +16,11 @@ function Add_note(){
     btn2.setAttribute('class','btn');
     btn3.setAttribute('class','btn');
     img1.setAttribute('class','btn_icon');
-    img1.src = "C:\Users\Subrat Sir\Downloads\icons8-edit-50.png";
+    img1.src = "icons8-edit-50.png";
     img2.setAttribute('class','btn_icon');
-    img2.src = "C:\Users\Subrat Sir\Downloads\icons8-download-24.png";
+    img2.src = "icons8-download-24.png";
     img3.setAttribute('class','btn_icon');
-    img3.src="C:\Users\Subrat Sir\Downloads\icons8-delete-30.png";
+    img3.src="icons8-delete-30.png";
     li.textContent = name;
     div.appendChild(li);
     div.appendChild(btn1);
