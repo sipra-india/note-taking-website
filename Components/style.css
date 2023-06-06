@@ -21,9 +21,14 @@ nav{
     max-width: 95%;
 }
 
+.btndiv {
+    float: right;
+    background-color: rgba(184, 182, 182, 0.404);
+    backdrop-filter: blur(3px);
+}
+
 .btn{
     display: none;
-    background-color: transparent;
     border: transparent;
     
 }
@@ -31,12 +36,13 @@ nav{
     width: 15px;
 }
 .nav_item{
+
+    position: relative;
     padding: 5px;
     margin: 5px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; 
-    filter : blur(5px);
 }
 
 .nav_item:hover .btn{
@@ -52,10 +58,6 @@ nav{
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-.btn:hover{
-    opacity: 0.6;
 }
 
 .add_note {
