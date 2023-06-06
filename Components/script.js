@@ -37,6 +37,7 @@ let id = 0;
                 delete_item(idn)
             };
             li.textContent = name;
+            li.setAttribute('class','li_item')
             div.appendChild(li);
             div.appendChild(btn1);
             div.appendChild(btn2);

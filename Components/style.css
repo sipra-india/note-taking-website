@@ -15,16 +15,12 @@ nav{
     height: 100vh;
     overflow: hidden;
 }
-li {
+.li_item {
     display: inline;
     font-size: 15px;
-    max-width: calc(100% - 50px);
-    overflow: hidden;
-    text-overflow: ellipsis;
+    max-width: 95%;
 }
-li.blurred {
-    filter: blur(4px);
-}
+
 .btn{
     display: none;
     background-color: transparent;
@@ -37,15 +33,25 @@ li.blurred {
 .nav_item{
     padding: 5px;
     margin: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    filter : blur(5px);
 }
 
 .nav_item:hover .btn{
     display: inline-block;
     float: right;
 }
+.nav_item:hover .li_item{
+    max-width: calc(95% - 50px);
+}
 
 .nav_item:hover{
     background-color: rgba(184, 182, 182, 0.404);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .btn:hover{
